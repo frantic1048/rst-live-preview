@@ -1,0 +1,33 @@
+{
+  "name": "rst-live-preview",
+  "version": "1.0.0",
+  "description": "Preview reSructuredText flie in browser with auto refresh ╮(￣▽￣)╭",
+  "main": "index.js",
+  "bin": {
+    "rstpreview": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frantic1048/rst-live-preview.git"
+  },
+  "keywords": [
+    "rst",
+    "reStructuredText",
+    "preview"
+  ],
+  "author": "frantic1048",
+  "license": "WTFPL",
+  "dependencies": {
+    "extract-text-webpack-plugin": "^1.0.1",
+    "opener": "^1.4.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "bugs": {
+    "url": "https://github.com/frantic1048/rst-live-preview/issues"
+  },
+  "homepage": "https://github.com/frantic1048/rst-live-preview#readme"
+}
