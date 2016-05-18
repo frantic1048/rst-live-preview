@@ -1,6 +1,6 @@
 {
   "name": "rst-live-preview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Preview reSructuredText flie in browser with auto refresh ╮(￣▽￣)╭",
   "main": "index.js",
   "bin": {

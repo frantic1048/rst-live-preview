@@ -5,7 +5,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var WebpackDevServer = require("webpack-dev-server");
 var opener = require('opener');
 
-// rstp [OPTION...] INPUT
+// rstpreview [OPTION...] INPUT
 var option  = process.argv.slice(2, -1);
 var input = process.argv[process.argv.length - 1];
 
