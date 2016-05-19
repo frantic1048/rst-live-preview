@@ -54,7 +54,15 @@ var devServerConfig = {
 
 var compiler = webpack(webpackConfig);
 var server = new WebpackDevServer(compiler, devServerConfig);
-server.listen(8080, 'localhost', function() {
-  // use iframe mode for autorefresh
-  opener('http://localhost:8080/webpack-dev-server/index.html');
+server.listen(function() {
+
+  // `listeningApp` is found from webpack-dev-server sourcecode
+  // https://github.com/webpack/webpack-dev-server/blob/master/lib/Server.js#L292-L294
+  var port = server.listeningApp.address().port;
+
+  console.log('rST preview runs on localhost:' + port);
+
+  // use iframe mode (/webpack-dev-server/) for auto refreshing
+  // so that it doesn't need manual injecting webpack-dev-server runtime
+  opener('http://localhost:' + port + '/webpack-dev-server/index.html');
 });
