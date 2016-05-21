@@ -50,7 +50,7 @@ Some math:
 ```rst
 Some source code:
 
-.. sourcecode:: javascript
+.. code:: javascript
 
   const assert = require('assert');
 
