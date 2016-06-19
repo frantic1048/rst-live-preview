@@ -1,6 +1,6 @@
 # rst-live-preview
 
-Preview reSructuredText file in browser with auto refresh \_(￣▽￣)」∠)\_
+Preview reStructuredText file in browser with auto refresh \_(￣▽￣)」∠)\_
 
 ![snapshot](http://i.imgur.com/z0q80oQ.png)
 
@@ -42,7 +42,7 @@ Some math:
 
 .. math::
 
-   x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+    x = {-b \pm \sqrt{b^2-4ac} \over 2a}
 ```
 
 ### Syntax Highlight
@@ -52,7 +52,7 @@ Some source code:
 
 .. code:: javascript
 
-  const assert = require('assert');
+    const assert = require('assert');
 
-  assert(true);  // OK
+    assert(true);  // OK
 ```
